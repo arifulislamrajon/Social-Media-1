@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/facebook_favicon.png" type="image/x-icon">
+    <!-- swiper js cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <!-- navbar start -->
+    <nav>
+        <div class="nav_left flex_align">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+
+            <div class="flex_align search_box">
+                <input type="text" placeholder="Search Facebook">
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+
+        <div class="nav_center">
+            <a href="#"><i class="fa-solid fa-home active"></i></a>
+            <a href="friends.html"><i class="fa-solid fa-user-group"></i></a>
+            <a href="video.html"><i class="fa-solid fa-tv"></i></a>
+            <a href="group.html"><i class="fa-solid fa-users-medical"></i></a>
+        </div>
+
+
+        <div class="nav_right flex_align gap">
+            <i class="fa-solid fa-grid-round flex_center m_n"></i>
+            <i class="fa-brands fa-facebook-messenger flex_center m_n"></i>
+            <i class="fa-solid fa-bell flex_center m_n"></i>
+            <i class="fa fa-moon flex_center theme"></i>
+            <img src="images/user.jpg" alt="" class="user_logo user profile_img m_n">
+        </div>
+    </nav>
+
+    <div class="main">
+        <!-- middle left section -->
+        <section class="left_section">
+            <a href="#" class="shortcut_link flex_align profile">
+                <img src="images/user.jpg" alt="user logo" class="user_logo user profile_img dy_pr_im_src">
+                <p class="user_name">Ariful Islam Rajøn</p>
+                <input type="file" id="profileInput">
+                <label for="profileInput" class="profileLabel"></label>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png?_nc_eui2=AeHsBL1Fm6FSnlHj8n2Gpid9iXYVTRy2fzKJdhVNHLZ_Muwcm03ibyQb7-lpb_p-i7xwcIsT0HPcM0RJWkR8C54M');background-position:0 -296px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Find friends</p>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png?_nc_eui2=AeHsBL1Fm6FSnlHj8n2Gpid9iXYVTRy2fzKJdhVNHLZ_Muwcm03ibyQb7-lpb_p-i7xwcIsT0HPcM0RJWkR8C54M');background-position:0 -518px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Video</p>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png?_nc_eui2=AeHsBL1Fm6FSnlHj8n2Gpid9iXYVTRy2fzKJdhVNHLZ_Muwcm03ibyQb7-lpb_p-i7xwcIsT0HPcM0RJWkR8C54M');background-position:0 -111px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Pages</p>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png?_nc_eui2=AeHsBL1Fm6FSnlHj8n2Gpid9iXYVTRy2fzKJdhVNHLZ_Muwcm03ibyQb7-lpb_p-i7xwcIsT0HPcM0RJWkR8C54M');background-position:0 -37px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Groups</p>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png?_nc_eui2=AeHsBL1Fm6FSnlHj8n2Gpid9iXYVTRy2fzKJdhVNHLZ_Muwcm03ibyQb7-lpb_p-i7xwcIsT0HPcM0RJWkR8C54M');background-position:0 -407px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Marketplace</p>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/eECk3ceTaHJ.png?_nc_eui2=AeFagwLJt9qLtEM5aZYrtdKhi9AM8exRZGeL0Azx7FFkZ8pVSOb6z8HXwe7JwDzLawposZumrH7QsuIwUDwkzC5Y">
+                <p>Feeds</p>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png?_nc_eui2=AeHsBL1Fm6FSnlHj8n2Gpid9iXYVTRy2fzKJdhVNHLZ_Muwcm03ibyQb7-lpb_p-i7xwcIsT0HPcM0RJWkR8C54M');background-position:0 -444px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Memories</p>
+            </a>
+
+            <a href="#" class="shortcut_link flex_align">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png?_nc_eui2=AeHsBL1Fm6FSnlHj8n2Gpid9iXYVTRy2fzKJdhVNHLZ_Muwcm03ibyQb7-lpb_p-i7xwcIsT0HPcM0RJWkR8C54M');background-position:0 -185px;background-size:auto;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Saved</p>
+            </a>
+
+            <a href="#" class="shortcut_link d flex_align">
+                <i class="flex_between">
+                    <svg viewBox="0 0 16 16" width="35" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: var(--text-color);"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg>
+                </i>
+                <p>See more</p>
+            </a>
+
+            <hr class="shortcut_hr">
+
+            <div class="shortcut">
+                <h5>Your Shortcuts</h5>
+                <div class="flex_align shortcut_link">
+                    <img src="images/user.jpg" alt="user logo" class="user_logo user profile_img">
+                    <p>Ariful Islam Rajøn</p>
+                </div>
+
+                <div class="flex_align shortcut_link">
+                    <img src="images/user.jpg" alt="user logo" class="user_logo user profile_img">
+                    <p>Ariful Islam Rajøn</p>
+                </div>
+
+                <div class="flex_align shortcut_link">
+                    <img src="images/user.jpg" alt="user logo" class="user_logo user profile_img">
+                    <p>Ariful Islam Rajøn</p>
+                </div>
+
+                <div class="flex_align shortcut_link">
+                    <img src="images/user.jpg" alt="user logo" class="user_logo user profile_img">
+                    <p>Ariful Islam Rajøn</p>
+                </div>
+            </div>
+        </section>
+
+        <main class="middle_section">
+            <!-- story section -->
+            <section class="story_section swiper mySwiper">
+                <div class="flex swiper-wrapper">
+                    <a href="#" class="user_story story flex_align swiper-slide">
+                        <img src="images/user.jpg" alt="use profile" class="profile_img">
+                        <span>+</span>
+                        <p>Create story</p>
+                        <input type="file" id="storyInput">
+                        <label for="storyInput" class="story_label"></label>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/user.jpg" alt="" class="story_img">
+                        <img src="images/user.jpg" alt="" class="user_story_img">
+                        <p>Mr. Arif's</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/1.jfif" alt="" class="story_img">
+                        <img src="images/2.jfif" alt="" class="user_story_img">
+                        <p>Mesut Ozil</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/2.jfif" alt="" class="story_img">
+                        <img src="images/1.jfif" alt="" class="user_story_img">
+                        <p>Saif Khan</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/3.jpg" class="story_img">
+                        <img src="images/4.jpg" alt="" class="user_story_img">
+                        <p>Babar Azam</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/4.jpg" alt="" class="story_img">
+                        <img src="images/2.jfif" alt="" class="user_story_img">
+                        <p>Maher Zain</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/user.jpg" alt="" class="story_img">
+                        <img src="images/user.jpg" alt="" class="user_story_img">
+                        <p>Mr. Arif's</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/1.jfif" alt="" class="story_img">
+                        <img src="images/2.jfif" alt="" class="user_story_img">
+                        <p>Mesut Ozil</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide s_s_c">
+                        <img src="images/2.jfif" alt="" class="story_img">
+                        <img src="images/1.jfif" alt="" class="user_story_img">
+                        <p>Saif Khan</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide">
+                        <img src="images/3.jpg" class="story_img">
+                        <img src="images/4.jpg" alt="" class="user_story_img">
+                        <p>Babar Azam</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+
+                    <a href="#" class="story swiper-slide">
+                        <img src="images/4.jpg" alt="" class="story_img">
+                        <img src="images/2.jfif" alt="" class="user_story_img">
+                        <p>Maher Zain</p>
+                        <i class="fa fa-heart story_like"></i>
+                    </a>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </section>
+
+            <!-- create post -->
+            <section class="create_post post">
+                <div class="flex_align gap">
+                    <a href=""><img src="images/user.jpg" alt="" class="user_logo user profile_img"></a>
+                    <input type="text" readonly placeholder="What's on your mind, Ariful Islam?" class="create_post_input">
+                </div>
+
+                <hr class="create_post_hr">
+
+                <div class="flex_between create_post_bottom">
+                    <a href="#" class="flex_center gap">
+                        <img src="images/live.png" alt="live logo">
+                        <p>Live video</p>
+                    </a>
+
+                    <a href="#" class="flex_center gap">
+                        <img src="images/photo.png" alt="live logo">
+                        <p>Photo/video</p>
+                    </a>
+
+                    <a href="#" class="flex_center gap">
+                        <img src="images/reel.png" alt="live logo">
+                        <p>Reel</p>
+                    </a>
+                </div>
+            </section>
+            
+            <!-- all post section -->
+            <section id="allPost">
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/2.jfif" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Arif's Rajon</a></h5>
+                                <p class="date_visible">10 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/1.jfif" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">                                
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/1.jfif" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Mr. Tommy</a></h5>
+                                <p class="date_visible">4 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/2.jfif" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/4.jpg" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Mr. Noor</a></h5>
+                                <p class="date_visible">17 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/3.jpg" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/3.jpg" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Maher Zain</a></h5>
+                                <p class="date_visible">13 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/4.jpg" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/2.jfif" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Arif's Rajon</a></h5>
+                                <p class="date_visible">10 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/1.jfif" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/1.jfif" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Mr. Tommy</a></h5>
+                                <p class="date_visible">4 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/2.jfif" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/4.jpg" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Mr. Noor</a></h5>
+                                <p class="date_visible">17 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/3.jpg" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/3.jpg" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Maher Zain</a></h5>
+                                <p class="date_visible">13 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/4.jpg" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/4.jpg" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Mr. Noor</a></h5>
+                                <p class="date_visible">17 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/3.jpg" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post delete_post">
+                    <div class="flex_between post_top">
+                        <div class="flex_align post_logo_name gap">
+                            <a href="#"><img class="user_logo" src="images/3.jpg" alt="post user img"></a>
+                            <div>
+                                <h5 class="post_user_name"><a href="#">Maher Zain</a></h5>
+                                <p class="date_visible">13 hours ago . <i class="fa fa-earth"></i></p>
+                            </div>
+                        </div>
+
+                        <div class="flex_align post_top_left">
+                            <p class="three_doted"><span>...</span></p>
+                            <p class="flex_center"><i class="fa fa-times post_close flex_center"></i></p>
+                        </div>
+                    </div>
+
+                    <a href=""><img src="images/4.jpg" alt="" class="post_img"></a>
+
+                    <div class="post_bottom">
+                        <div class="react_top flex_between">
+                            <div class="react flex_align">
+                                <img src="images/like.png" alt="">
+                                <img src="images/love.png" alt="">
+                                <img src="images/care.png" alt="">
+                                
+                                <p>1.9k</p>
+                            </div>
+
+                            <div class="comment_share">
+                                <a href="#">118 comments</a>
+                                <a href="#">17 shares</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="react_bottom flex_between gap">
+                            <span class="flex_align like">
+                                <img src="images/like-2.png" alt="">
+                                <i class="fa fa-thumbs-up"></i>
+                                <p>Like</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -571px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Comment</p>
+                            </span>
+                            <span class="flex_align">
+                                <i style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Ima_pXlhqeL.png?_nc_eui2=AeF6uljFVIglF01CfzTXTuNDJgpGdu_r-TsmCkZ27-v5O-8CvXYnHPccgcitY10DitvGRdNq_IpB1dAh_8hJ8VxD&quot;); background-position: 0px -907px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                <p>Share</p>
+                            </span>
+                        </div>
+
+                        <div class="allreact">
+                            <span><img src="images/like.png" alt=""><p>Like</p></span>
+                            <span><img src="images/love.png" alt=""><p>Love</p></span>
+                            <span><img src="images/care.png" alt=""><p>Care</p></span>
+                            <span><img src="images/haha.png" alt=""><p>Haha</p></span>
+                            <span><img src="images/wow.png" alt=""><p>Wow</p></span>
+                            <span><img src="images/sad.png" alt=""><p>Sad</p></span>
+                            <span><img src="images/angry.png" alt=""><p>Angry</p></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- new post -->
+            <section class="new_post post">
+                <div class="new_post_title flex_align">
+                    <h5>Create post</h5>
+                    <i class="fa fa-times flex_center"></i>
+                </div>
+
+                <div class="new_post_body">
+                    <div class="flex_align gap new_post_user_info">
+                        <img src="images/user.jpg" alt="post user logo" class="user_logo profile_img">
+                        <div>
+                            <p>Ariful Islam Rajøn</p>
+                            <span class="flex_center">
+                                <i class="fa fa-earth"></i>
+                                <p>Public</p>
+                                <i class="fa fa-caret-down"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <textarea name="new post" cols="30" rows="5" placeholder="What's on your mind, Ariful Islam?" id="posttextarea"></textarea>
+                    <span class="new_post_img">
+                        <img src="" alt="">
+                        <input type="file" id="newPostInput">
+                        <label for="newPostInput" class="newPostLabel flex_center"></label>
+                        
+                        <i class="fa fa-times new_post_img_close flex_center"></i>
+                    </span>
+
+                    <div class="flex_between create_post_icon">
+                        <p>Add to your post</p>
+
+                        <div class="flex">
+                            <span class="flex_center new_post_photos_icon"><img src="images/photo.png" alt=""></span>
+                            <span class="flex_center"><img src="images/user_icon.png" alt=""></span>
+                            <span class="flex_center"><img src="images/fellings.png" alt=""></span>
+                            <span class="flex_center"><img src="images/location.png" alt=""></span>
+                            <span class="flex_center"><img src="images/gif.png" alt=""></span>
+                            <p class="three_doted"><span>...</span></p>
+                        </div>
+                    </div>
+
+                    <div class="flex boost">
+                        <p class="flex_center"><i class="fa-regular fa-bullhorn"></i></p>
+                        <div>
+                            <p>Boost post</p>
+                            <p>You'll choose settings after you click Post. You can only boost public posts.</p>
+                        </div>
+                        <span class="flex_align"></span>
+                    </div>
+
+                    <button disabled>Next</button>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- middle right section -->
+        <section class="right_section">
+            <div class="pages">
+                <div class="flex_between">
+                    <h5 class="right_section_title">Your Pages and profiles</h5>
+                    <p class="three_doted"><span>...</span></p>
+                </div>
+
+                <a href="#" class="flex_align page">
+                    <img src="images/user.jpg" alt="" class="user_logo">
+                    <p>Arif's Rajon</p>
+                </a>
+
+                <a href="#" class="flex_align switcher">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <p>Switch into Page</p>
+                </a>
+                
+                <a href="#" class="flex_align promotion">
+                    <i class="fa-regular fa-bullhorn"></i>
+                    <p>Create promotion</p>
+                </a>
+            </div>
+
+            <hr class="pages_hr">
+
+            <div class="right_section_middle">
+                <div class="flex_between right_title_section">
+                    <h5 class="right_section_title">Contacts</h5>
+                    <span class="flex_align">
+                        <i class="fa fa-search"></i>
+                        <p class="three_doted"><span>...</span></p>
+                    </span>
+                </div>
+
+                <div class="contact_friends">
+                    <a href="#" class="flex_align gap">
+                        <img src="images/1.jfif" alt="user logo" class="user_logo">
+                        <p>Arif's Rajon</p>
+                    </a>
+
+                    <a href="#" class="flex_align gap">
+                        <img src="images/2.jfif" alt="user logo" class="user_logo">
+                        <p>Mr. Noor</p>
+                    </a>
+
+                    <a href="#" class="flex_align gap">
+                        <img src="images/3.jpg" alt="user logo" class="user_logo">
+                        <p>Maher Zain</p>
+                    </a>
+
+                    <a href="#" class="flex_align gap">
+                        <img src="images/4.jpg" alt="user logo" class="user_logo">
+                        <p>Mr. Tommy</p>
+                    </a>
+
+                    <a href="#" class="flex_align gap">
+                        <img src="images/user.jpg" alt="user logo" class="user_logo">
+                        <p>Mesut Ozil</p>
+                    </a>
+
+                    <a href="#" class="flex_align gap">
+                        <img src="images/1.jfif" alt="user logo" class="user_logo">
+                        <p>Muhammad Rizwan</p>
+                    </a>
+
+                    <a href="#" class="flex_align gap">
+                        <img src="images/2.jfif" alt="user logo" class="user_logo">
+                        <p>Nafees Neel</p>
+                    </a>
+
+                    <a href="#" class="flex_align gap">
+                        <img src="images/3.jpg" alt="user logo" class="user_logo">
+                        <p>Saif Khan</p>
+                    </a>
+                </div>
+
+                <hr class="pages_hr">
+
+                <div>
+                    <h5 class="right_section_title">Group conversations</h5>
+
+                    <div class="flex_align gap new_group">
+                        <span>+</span>
+                        <p>Create new group</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- menu section -->
+        <section class="menu show_modal message post">
+            <h1>Menu Section</h1>
+        </section>
+
+        <!-- message section -->
+        <section class="message post show_modal">
+            <div class="message_top_section">
+                <div class="message_top flex_between">
+                    <h3>Chats</h3>
+    
+                    <div class="flex">
+                        <a href="#" class="flex_center"><p class="three_doted"><span>...</span></p></a>
+                        <a href="#" class="flex_center"><i class="fa-solid fa-arrows-maximize"></i></a>
+                        <a href="#" class="flex_center"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                </div>
+    
+                <div class="search_box flex_align message_search_bar">
+                    <input type="text" placeholder="Search Messenger">
+                    <i class="fa fa-search"></i>
+                </div>
+    
+                <div class="message_tab">
+                    <span class="active">Inbox</span>
+                    <span>Communities</span>
+                </div>
+    
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/1.jfif" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Arif's Rajon</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span><span class="online"></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/2.jfif" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Saif Khan</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+    
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/3.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Mesut Ozil</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span><span class="online"></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/4.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Maher Zain</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span><span class="online"></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Athik Sarkar</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/1.jfif" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Muhammad Youssef</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+    
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/4.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Nafees Neel</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/3.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="chat_name">Babar Azam</h5>
+    
+                        <span class="flex_align">
+                            <p class="last_message">Hello. How are you..?</p>
+                            <p class="message_date">&nbsp;. 50m</p>
+                        </span>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+            </div>
+            <span class="message_loading flex_center"><span class="loading"></span></span>
+            <a href="#" class="messenger_link flex_center">See all in Messenger</a>
+        </section>
+
+        <!-- notification section -->
+        <section class="notification post show_modal">
+            <div class="message_top_section notify_top_section">
+                <div class="message_top flex_between">
+                    <h3>Notifications</h3>
+                </div>
+    
+                <div class="flex_between noti_all">
+                    <p>Earlier</p>
+                    <a href="#">See all</a>
+                </div>
+
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+                
+                <a href="#" class="sigle_chat flex_align gap">
+                    <img src="images/user.jpg" alt="chat img" class="user_logo">
+                    <div>
+                        <h5 class="notify_name ">Athik Sarkar
+                            <p class="notify_message ">birthday was on February 3.</p>
+                        </h5>
+    
+                        <p class="message_date notify_date">2 days ago</p>
+
+                        <i data-visualcompletion="css-img" class="x1b0d499 xl1xv1r notify_type" aria-hidden="true" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/VHbz_3lTaaw.png?_nc_eui2=AeFQGj1fTLHevFn2stKg4jUV39TBD5QJMTff1MEPlAkxN0WzfxKEw7H4DaftOqjEfo4OWas8P9XI1AmCw4sk6Oh4&quot;); background-position: 0px -1160px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <span class="message_option flex_center"><p class="three_doted"><span>...</span></p></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- account section -->
+        <section class="account show_modal message post">
+            <h1>Account Section</h1>
+        </section>
+    </div>
+
+    <!-- search box -->
+    <section class="search_section">
+        <div class="search_box flex_align">
+            <i class="fa fa-arrow-left right_arrow"></i>
+            <input type="text" placeholder="Search Facebook">
+        </div>
+        <p>No recent searches</p>
+    </section>
+
+    <div class="blur"></div>
+
+<!-- swiper js cdn link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- swiper js file -->
+<script src="js/swiper.js"></script>
+<!-- js file link -->
+<script src="js/script.js"></script>
+</body>
+</html>
